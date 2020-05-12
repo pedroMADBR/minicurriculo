@@ -1,22 +1,5 @@
 ﻿@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap');
 
-
-
-/*
-h1{
-  color: #3CB371;
-  font-family: verdana;
-  font-size: 50px;
-  line-height: 70px;
-}
-h2,h3 {
-  color: #331832;
-  font-family: Raleway;
-  font-size: 30px;
-  line-height: 50px;
- }
-  */
-
 table,td,th {
   color: #12100E ;
   border: solid #3CB371;
@@ -42,6 +25,7 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  background: linear-gradient(to bottom, #002131 0%, #19629e 60%);
 }
 a {
   font-family: Goudy Bookletter 1911;
@@ -59,11 +43,6 @@ a:hover, a:active {
   background-color: #DF2935;
 }
 
-body {
-  background: linear-gradient(to bottom, #002131 0%, #19629e 60%);
-
-}
-
 h1 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 70px;
@@ -71,7 +50,7 @@ h1 {
   text-shadow: 1px 1px 20px hsla(0,100%,100%,0.3);
   margin: 0;
   padding-top: 5%;
-  padding-bottom: 1%;
+  padding-bottom: 2%;
 }
 
 h2, h3 {
@@ -81,6 +60,7 @@ h2, h3 {
   text-shadow: 1px 1px 20px hsla(0,100%,100%,0.3);
   margin: 0;
   padding-top: 5%;
+  padding-bottom: 2%;
 }
 
 #stars {
@@ -91,53 +71,3 @@ h2, h3 {
   width: 100vw;
   height: 80vh;
 }
-
-
-/* #mousepassing {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.container {
-  
-  position: relative;
-  width: 50%;
-  height: fit-content;
-}
-
-.image {
-  width: 70%;
-}
-
-.overlay {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  background-color: #4636d6b4;
-  overflow: hidden;
-  width: 70%;
-  height: 0;
-  transition: .5s ease;
-}
-
-.container:hover .overlay {
-  bottom: 0;
-  height: 100%;
-}
-
-.text {
-  white-space: nowrap; 
-  color: white;
-  font-size: 40px;
-  font-family: Verdana;
-  position: absolute;
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-} */
-
