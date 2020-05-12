@@ -1,23 +1,21 @@
-﻿body {
-  background-color: #F5F3BB;
-  margin: 20px;
-  padding: 30px;
-  border:  10px solid #331832;
-}
+﻿@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap');
+
+
+
+/*
 h1{
   color: #3CB371;
   font-family: verdana;
   font-size: 50px;
   line-height: 70px;
-  font-border: 1px solid blue;
 }
 h2,h3 {
   color: #331832;
   font-family: Raleway;
   font-size: 30px;
   line-height: 50px;
-  
-}
+ }
+  */
 
 table,td,th {
   color: #12100E ;
@@ -49,7 +47,6 @@ a {
   font-family: Goudy Bookletter 1911;
   font-size: 20px;
 }
-
 a:link, a:visited {
   background-color: #DF5935;
   color: #F5F3BB;
@@ -58,7 +55,89 @@ a:link, a:visited {
   text-decoration: none;
   display: inline-block;
 }
-
 a:hover, a:active {
   background-color: #DF2935;
 }
+
+body {
+  background: linear-gradient(to bottom, #002131 0%, #19629e 60%);
+
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 70px;
+  color: #fff;
+  text-shadow: 1px 1px 20px hsla(0,100%,100%,0.3);
+  margin: 0;
+  padding-top: 5%;
+  padding-bottom: 1%;
+}
+
+h2, h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+  color: #fff;
+  text-shadow: 1px 1px 20px hsla(0,100%,100%,0.3);
+  margin: 0;
+  padding-top: 5%;
+}
+
+#stars {
+  top: 0;
+  display: flex;
+  flex-direction: initial;
+
+  width: 100vw;
+  height: 80vh;
+}
+
+
+/* #mousepassing {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  
+  position: relative;
+  width: 50%;
+  height: fit-content;
+}
+
+.image {
+  width: 70%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #4636d6b4;
+  overflow: hidden;
+  width: 70%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 40px;
+  font-family: Verdana;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+} */
+
